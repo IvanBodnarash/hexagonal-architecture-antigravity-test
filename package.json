@@ -1,0 +1,38 @@
+{
+  "name": "hexagonal-architecture-ai-tasks",
+  "version": "1.0.0",
+  "description": "Educational Hexagonal Architecture (Ports & Adapters) project in TypeScript & Node.js for AI Agent Task Management",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "cli": "tsx src/cli.ts",
+    "demo": "tsx src/demo.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "hexagonal-architecture",
+    "ports-and-adapters",
+    "clean-architecture",
+    "typescript",
+    "ai-agents",
+    "domain-driven-design"
+  ],
+  "author": "Antigravity Pair Programmer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.9",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.7"
+  }
+}
